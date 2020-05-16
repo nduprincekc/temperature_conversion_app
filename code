@@ -1,0 +1,18 @@
+print("Welcome to temperature conversion app")
+
+temp_f = float(input('Please enter the degree in Fahrenheit '))
+
+temp_c = (5 / 9) * temp_f
+
+temp_k = temp_c + 273.15
+# round
+temp_f = round(temp_f, 4)
+temp_c = round(temp_c, 4)
+temp_k = round(temp_k, 4)
+
+# display
+print('Your degree in Fahrenheit is: ', temp_f)
+print('Your degree in Celsius is: ', temp_c)
+print('Your degree in Kelvin is: ', temp_k)
+
+print('Please Stay Safe')
